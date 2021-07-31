@@ -132,7 +132,10 @@ The following table recap the field configured for the ThingSpeak push event
 Just upload the firmware to your Sensei32 board and enjoy!
 
 A quick demo on how to assembly the **18650 battery holder** and **pin-headers**, to use Sensei32 as a standard ESP32 DevKit:
-https://user-images.githubusercontent.com/14925798/126035802-63ded463-5af1-4854-b9ec-f1f7bcdcf78c.mov
+
+https://user-images.githubusercontent.com/14925798/127752874-1f0aae8b-1cab-46b3-96db-b3a60e6c8af0.mov
+
+
 
 ## 🙏🏼 Special Thanks
 
