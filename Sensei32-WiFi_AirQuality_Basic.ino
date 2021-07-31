@@ -612,6 +612,7 @@ void InitialiseSensors() {
     //  - Heater off
     //  - 14 bit Temperature and Humidity Measurement Resolutions
     hdc1080.begin(0x40);
+    Serial.println("[" + String(millis()) + "] HDC1080: Init: Done");
 
     // Read the Temperature and humidity sensor
     env_temperature = hdc1080.readTemperature();
@@ -627,6 +628,7 @@ void InitialiseSensors() {
     if (!bme.begin(0x76)) {
       Serial.println("[" + String(millis()) + "] BME688: Error: Cannot perform read!");
     } else {
+      Serial.println("[" + String(millis()) + "] BME688: Init: Done");
       // Set up oversampling and filter initialization
       bme.setTemperatureOversampling(BME680_OS_8X);
       bme.setHumidityOversampling(BME680_OS_2X);
